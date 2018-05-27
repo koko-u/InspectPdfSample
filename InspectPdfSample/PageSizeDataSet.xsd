@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PageSizeDataSet" targetNamespace="http://tempuri.org/PageSizeDataSet.xsd" xmlns:mstns="http://tempuri.org/PageSizeDataSet.xsd" xmlns="http://tempuri.org/PageSizeDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PageSizeDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="PageSizeDataSet" msprop:Generator_UserDSName="PageSizeDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ASizeDataTable" msprop:Generator_TableClassName="ASizeDataTableDataTable" msprop:Generator_TableVarName="tableASizeDataTable" msprop:Generator_TablePropName="ASizeDataTable" msprop:Generator_RowDeletingName="ASizeDataTableRowDeleting" msprop:Generator_RowChangingName="ASizeDataTableRowChanging" msprop:Generator_RowEvHandlerName="ASizeDataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="ASizeDataTableRowDeleted" msprop:Generator_UserTableName="ASizeDataTable" msprop:Generator_RowChangedName="ASizeDataTableRowChanged" msprop:Generator_RowEvArgName="ASizeDataTableRowChangeEvent" msprop:Generator_RowClassName="ASizeDataTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Size" msdata:Caption="Aサイズ" msprop:Generator_ColumnVarNameInTable="columnSize" msprop:Generator_ColumnPropNameInRow="Size" msprop:Generator_ColumnPropNameInTable="SizeColumn" msprop:Generator_UserColumnName="Size" type="xs:string" minOccurs="0" />
+              <xs:element name="Dimension" msdata:Caption="Bサイズ" msprop:Generator_ColumnVarNameInTable="columnDimension" msprop:Generator_ColumnPropNameInRow="Dimension" msprop:Generator_ColumnPropNameInTable="DimensionColumn" msprop:Generator_UserColumnName="Dimension" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BSizeDataTable" msprop:Generator_TableClassName="BSizeDataTableDataTable" msprop:Generator_TableVarName="tableBSizeDataTable" msprop:Generator_TablePropName="BSizeDataTable" msprop:Generator_RowDeletingName="BSizeDataTableRowDeleting" msprop:Generator_RowChangingName="BSizeDataTableRowChanging" msprop:Generator_RowEvHandlerName="BSizeDataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="BSizeDataTableRowDeleted" msprop:Generator_UserTableName="BSizeDataTable" msprop:Generator_RowChangedName="BSizeDataTableRowChanged" msprop:Generator_RowEvArgName="BSizeDataTableRowChangeEvent" msprop:Generator_RowClassName="BSizeDataTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Size" msprop:Generator_ColumnVarNameInTable="columnSize" msprop:Generator_ColumnPropNameInRow="Size" msprop:Generator_ColumnPropNameInTable="SizeColumn" msprop:Generator_UserColumnName="Size" type="xs:string" minOccurs="0" />
+              <xs:element name="Dimension" msprop:Generator_ColumnVarNameInTable="columnDimension" msprop:Generator_ColumnPropNameInRow="Dimension" msprop:Generator_ColumnPropNameInTable="DimensionColumn" msprop:Generator_UserColumnName="Dimension" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
